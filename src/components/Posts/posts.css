@@ -1,0 +1,9 @@
+.post-title {
+  max-width: 90%; /* Prevents title from crashing into the ... button */
+}
+
+.author-avatar {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
