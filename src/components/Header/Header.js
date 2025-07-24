@@ -1,7 +1,5 @@
-// src/components/Header/Header.js
-
 import React from 'react';
-import logo from '../../assets/logo.svg';
+
 
 const Header = ({ handleShowModal }) => {
   return (
@@ -10,7 +8,7 @@ const Header = ({ handleShowModal }) => {
         <div className="d-flex flex-wrap align-items-center justify-content-between">
           
           <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-            <img src={logo} alt="ATG.WORLD Logo" style={{ height: '72px' }} className="me-2" />
+            <img src="/assets/logo.svg" alt="ATG.WORLD Logo" style={{ height: '72px' }} className="me-2" />
             <span className="fs-4 fw-bold">ATG.WORLD</span>
           </a>
 

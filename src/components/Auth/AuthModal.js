@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Modal } from 'bootstrap'; // Import Bootstrap's Modal JS
+import { Modal } from 'bootstrap';
 import './authModal.css';
 
 const AuthModal = ({ show, handleClose, initialView = 'createAccount' }) => {
@@ -82,7 +82,7 @@ const AuthModal = ({ show, handleClose, initialView = 'createAccount' }) => {
                     {isSignIn ? "Create new for free!" : "Sign In"}
                   </a>
                 </p>
-                <img src="../../assets/sign-in.jpeg" alt="Authentication Illustration" className="img-fluid" />
+                <img src="/assets/sign-in.jpg" alt="Authentication Illustration" className="img-fluid" />
                  {!isSignIn && <small className="mt-auto">By signing up, you agree to our Terms & conditions, Privacy policy</small>}
               </div>
             </div>
