@@ -82,7 +82,7 @@ const AuthModal = ({ show, handleClose, initialView = 'createAccount' }) => {
                     {isSignIn ? "Create new for free!" : "Sign In"}
                   </a>
                 </p>
-                <img src="https://i.ibb.co/6rZ4V87/atg-illustration.png" alt="Illustration" className="img-fluid" />
+                <img src="https://i.ibb.co/d0hZx1Y/undraw-authentication-re-svpt.png" alt="Authentication Illustration" className="img-fluid" />
                  {!isSignIn && <small className="mt-auto">By signing up, you agree to our Terms & conditions, Privacy policy</small>}
               </div>
             </div>

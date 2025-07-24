@@ -8,7 +8,7 @@ const Header = ({ handleShowModal }) => {
         <div className="d-flex flex-wrap align-items-center justify-content-between">
           {/* Logo */}
           <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-            <img src="https://i.ibb.co/W2y9BqC/logo.png" alt="ATG.WORLD Logo" style={{ height: '24px' }} />
+            <img src="https://i.ibb.co/W2y9BqC/logo.png" alt="ATG.WORLD Logo" style={{ height: '36px' }} />
           </a>
 
           {/* Search Bar (same as before) */}
