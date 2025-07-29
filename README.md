@@ -1,4 +1,4 @@
-# ATG.WORLD - Responsive Web Page clone
+# ATG.WORLD - Responsive Web Page
 
 This project is a fully responsive, pixel-perfect clone of a webpage design, built with ReactJS and Bootstrap 5. The primary objective was to accurately replicate the user interface for both desktop and mobile views, ensuring a seamless and fluid experience during window resizing.
 
